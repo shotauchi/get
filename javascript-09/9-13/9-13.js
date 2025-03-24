@@ -23,9 +23,9 @@ let grape = {
     
 };
 
-let fruit = [apple, mandarinOrange, grape];
+let fruits = [apple,mandarinOrange,grape];
 
-let sum = fruit.reduce(function(sum, element){
-  return sum + element;
-}, 0);
+for (var i = 0; i < fruits.length; i++) {
+    console.log(fruits[i].weight);
+}
 
